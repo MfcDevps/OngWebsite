@@ -2,7 +2,6 @@
 body{
     color: #FFF;
     font-size: 22px;
-    text-align: center;
     background-color: #FFF;
 }
 
@@ -21,6 +20,16 @@ h1,h2,h3,h4,h5,h5,p{
 
 .clear{
     clear: both;
+}
+
+.reset-padding{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.reset-margin{
+    margin-right: 0;
+    margin-left: 0;
 }
 /* End Global Style */
 
@@ -62,6 +71,9 @@ h1,h2,h3,h4,h5,h5,p{
     color: #3f3f3f
 }
 
+.projects header{
+    text-align: center;
+}
 
 .projects header h2{
     font-weight: bold;
@@ -83,14 +95,10 @@ h1,h2,h3,h4,h5,h5,p{
 .projects ul{
     list-style-type: none;
     padding: 0;
-    overflow: hidden;
+
     margin-top: 40px;
 }
 
-.projects .reset-padding{
-    padding-left: 0;
-    padding-right: 0;
-}
 
 .projects .project-item{
     position: relative;
@@ -114,10 +122,96 @@ h1,h2,h3,h4,h5,h5,p{
 
 .projects .item-desc{
     position: absolute;
-    bottom: 20px;
+    bottom: 30px;
     z-index: 9999;
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
+.projects .item-desc h3{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.projects .item-desc .item-progress{
+    width: 100%;
+}
+.projects .item-desc .item-progress progress{
+    width: 100%;
+    background: none;
+    border: 1px solid #d8d8d8;
+    height: 15px;
+}
+
+.projects .item-desc .item-progress progress::-webkit-progress-value{
+    background: #d84831;
+}
+
+.projects .item-desc .item-progress progress::-webkit-progress-bar{
+    background: none;
+}
+
+
+.projects .item-desc .item-progress progress:-moz-progress-value{
+    background: #d84831;
+}
+
+.projects .item-desc .item-progress progress:-moz-progress-bar{
+    background: none;
+}
+
+
+.projects .item-desc .item-progress progress::-ms-progress-value{
+    background: #d84831;
+}
+
+.projects .item-desc .item-progress progress::-ms-progress-bar{
+    background: none;
+}
+
+
+.projects .item-desc .item-progress progress::-o-progress-value{
+    background: #d84831;
+}
+
+.projects .item-desc .item-progress progress::-o-progress-bar{
+    background: none;
+}
+
+.projects .item-desc .item-progress .item-progress-value{
+    width: 10%;
+    background: #d84831;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.projects .item-data{
+    margin-top: 15px;
+}
+.projects .item-data .goals{
+    font-size: 12px;
+    margin-top: 4px;
+    margin-right: 9px;
+}
+
+.projects .item-data .money{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.projects .item-data .money span{
+    color: #d84831;
+    font-weight: bold;
+}
+
+.projects .item-data .persontege{
+    font-size: 16px;
+    color: #d84831;
+    font-weight: bold;
+}
    /* End Project Items Styles
  /* End Projects Styles */
 
@@ -147,7 +241,7 @@ h1,h2,h3,h4,h5,h5,p{
 /* Start Minimize Style */
 
 .causes, .stories, .projects, .events, .partners, .footer{
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 /* End Minimize style */
