@@ -1,0 +1,97 @@
+/* Start Global Style */
+body{
+    color: #FFF;
+    font-size: 22px;
+    text-align: center;
+    background-color: #FFF;
+}
+
+h1,h2,h3,h4,h5,h5,p{
+    margin: 0;
+    padding: 0;
+}
+
+.float-left{
+    float:left;
+}
+
+.float-right{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+/* End Global Style */
+
+
+/* Start Hendou Style */
+.topBar{
+    background: rgb(194, 16, 64);
+}
+
+.menuBar{
+    background: rgb(55, 120, 169);
+}
+
+.slider{
+    background: rgb(55, 169, 106);
+}
+/* End Hendou Style */
+
+
+
+/* Start Memine Style */
+.causes{
+    background: rgb(169, 156, 55);
+}
+
+.stories{
+    background: rgb(55, 78, 169);
+}
+/* End Memine Style */
+
+
+
+/* Start Ahmed Styles */
+ /* Start Projects Styles */
+
+  /* Start Project header styles */
+
+.projects{
+    background: rgb(144, 181, 107);
+}
+
+   /* End Project Items Styles
+ /* End Projects Styles */
+
+.events{
+    background: rgb(16, 164, 197);
+}
+/* End Ahmed Style */
+
+
+
+
+/* Start Khaddy Style */
+
+.partners{
+    background: rgb(149, 152, 10);
+}
+
+.footer{
+    background: rgb(150, 180, 187);
+}
+
+/* End Khaddy Style */
+
+
+/* ------------------------------------------------- */
+
+/* Start Minimize Style */
+
+.causes, .stories, .projects, .events, .partners, .footer{
+    margin-top: 50px;
+}
+
+/* End Minimize style */
