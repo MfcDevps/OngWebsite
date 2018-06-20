@@ -59,7 +59,63 @@ h1,h2,h3,h4,h5,h5,p{
   /* Start Project header styles */
 
 .projects{
-    background: rgb(144, 181, 107);
+    color: #3f3f3f
+}
+
+
+.projects header h2{
+    font-weight: bold;
+    color: rgb(48, 48, 48);
+}
+
+.projects header h2 span{
+    color: #d84831;
+}
+
+.projects header p{
+    color: #8c8c8c;
+    font-size: 16px;
+    margin-top: 10px;
+}
+   /* End Project header styles */
+
+   /* Start Project Items Styles */
+.projects ul{
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.projects .reset-padding{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.projects .project-item{
+    position: relative;
+    height: 400px;
+    color: #FFF;
+}
+
+.projects .project-item img{
+    height: 100%;
+    width: 100%;
+}
+
+.projects .project-item .overlay{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    z-index: 9998;
+    background: rgba(33, 33, 33, .5)
+}
+
+.projects .item-desc{
+    position: absolute;
+    bottom: 20px;
+    z-index: 9999;
 }
 
    /* End Project Items Styles
