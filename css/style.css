@@ -2,7 +2,7 @@
 body{
     color: #FFF;
     font-size: 22px;
-    background-color: #FFF;
+    background-color: #fbfbfb;
 }
 
 h1,h2,h3,h4,h5,h5,p{
@@ -77,7 +77,7 @@ h1,h2,h3,h4,h5,h5,p{
 
 .projects header h2{
     font-weight: bold;
-    color: rgb(48, 48, 48);
+    color: #303030;
 }
 
 .projects header h2 span{
@@ -216,8 +216,98 @@ h1,h2,h3,h4,h5,h5,p{
  /* End Projects Styles */
 
 .events{
-    background: rgb(16, 164, 197);
+    color:#000
 }
+
+.events .event-left h3{
+    color:#303030;
+    font-weight: bold;
+}
+
+.events .event-left .desc{
+    display: flex;
+}
+
+.events .event-left .desc span{
+    color: #8c8c8c;
+    margin-right: 20px;
+    font-size: 15px;
+    margin-top: 9px;
+}
+
+.events .event-left .desc hr{
+    flex-grow: 100;
+    border-top: 2px solid #eee;
+}
+
+.events .event-left .box{
+    width: 100%;
+    background: #FFF;
+    box-shadow: 0px 1px 3px #d2d2d2
+}
+
+.events .event-left .event-one{
+    margin-top: 40px;
+    height: 250px;
+}
+
+.events .event-left .event-two{
+    margin-top: 10px;
+    height: 150px;
+}
+
+.events .event-right{
+    height: 450px;
+    width: 100%;
+    background: #3f3f3f;
+    position: relative;
+}
+
+.events .event-right .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 9998;
+    background: rgba(0, 0, 0, .6)
+}
+
+.events .event-right img{
+    height: 100%;
+}
+.events .event-right .desc{
+    position: absolute;
+    z-index: 9999;
+    color: #FFF
+}
+
+.events .event-right .desc{
+    margin-left: 40px;
+    margin-right: 40px;
+    top: 20%;
+}
+
+.events .event-right .desc h3{
+    
+}
+.events .event-right .desc h1{
+    margin-top: 12px;
+}
+.events .event-right .desc p{
+    font-size: 13px;
+    margin-top: 20px;
+}
+.events .event-right .desc button{
+    background: #d84831;
+    border: none;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+
 /* End Ahmed Style */
 
 
@@ -241,7 +331,7 @@ h1,h2,h3,h4,h5,h5,p{
 /* Start Minimize Style */
 
 .causes, .stories, .projects, .events, .partners, .footer{
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 /* End Minimize style */
