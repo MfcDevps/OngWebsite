@@ -219,6 +219,8 @@ h1,h2,h3,h4,h5,h5,p{
     color:#000
 }
 
+
+    /* Start Left Side of Events Section */
 .events .event-left h3{
     color:#303030;
     font-weight: bold;
@@ -240,21 +242,66 @@ h1,h2,h3,h4,h5,h5,p{
     border-top: 2px solid #eee;
 }
 
-.events .event-left .box{
-    width: 100%;
-    background: #FFF;
-    box-shadow: 0px 1px 3px #d2d2d2
-}
-
 .events .event-left .event-one{
     margin-top: 40px;
     height: 250px;
+    position: relative;
 }
 
 .events .event-left .event-two{
     margin-top: 10px;
     height: 150px;
+    position: relative;
 }
+
+.events .event-left .box{
+    width: 100%;
+    background: #FFF;
+    box-shadow: 0px 1px 3px #d2d2d2;
+    display:flex;
+}
+
+.events .event-left .box .event-date{
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+}
+
+.events .event-left .event-one .event-date{
+    top: 39%;
+}
+
+.events .event-left .event-two .event-date{
+    top: 30%;
+}
+
+.events .event-left .box .event-date h3{
+    color: #696969;
+    font-size: 31px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.events .event-left .box .event-date span{
+    font-size: 14px;
+    color: #303030;
+}
+
+.events .event-left .box .event-info{
+    flex-grow: 100;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.events .event-left .box .event-info{
+    
+}
+
+
+    
+    /* End Left Side of Events Section */
+
+    /* Start Right Side of Events Section */
 
 .events .event-right{
     height: 450px;
@@ -307,6 +354,8 @@ h1,h2,h3,h4,h5,h5,p{
     margin-top: 40px;
 }
 
+   
+    /* End Right Side of Events Section */
 
 /* End Ahmed Style */
 
