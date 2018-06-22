@@ -252,7 +252,7 @@ h1,h2,h3,h4,h5,h5,p{
     margin-top: 10px;
     height: 150px;
     position: relative;
-<<<<<<< HEAD
+
 }
 
 .events .event-left .box{
@@ -276,8 +276,7 @@ h1,h2,h3,h4,h5,h5,p{
     top: 30%;
 }
 
-=======
-}
+
 
 .events .event-left .box{
     width: 100%;
@@ -300,7 +299,7 @@ h1,h2,h3,h4,h5,h5,p{
     top: 30%;
 }
 
->>>>>>> cca21f15ec649ebd9ebdd13f327ea3f998d5c865
+
 .events .event-left .box .event-date h3{
     color: #696969;
     font-size: 31px;
@@ -319,7 +318,7 @@ h1,h2,h3,h4,h5,h5,p{
     margin-bottom: 30px;
 }
 
-<<<<<<< HEAD
+
 .events .event-left .box .event-info > hr{
     border-top: 1.5px dotted #dfdfdf;
     width: 100%;
@@ -380,19 +379,15 @@ h1,h2,h3,h4,h5,h5,p{
     border-radius: 5px;
     color: #FFF;
 }
-=======
-.events .event-left .box .event-info{
 
->>>>>>> cca21f15ec649ebd9ebdd13f327ea3f998d5c865
+.events .event-left .box .event-info{
+}
 
     
     /* End Left Side of Events Section */
 
     /* Start Right Side of Events Section */
-<<<<<<< HEAD
 
-=======
->>>>>>> cca21f15ec649ebd9ebdd13f327ea3f998d5c865
 .events .event-right{
     height: 450px;
     width: 100%;
