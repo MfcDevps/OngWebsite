@@ -117,7 +117,7 @@ h1,h2,h3,h4,h5,h5,p{
     position: absolute;
     bottom: 0;
     z-index: 9998;
-    background: rgba(33, 33, 33, .5)
+    background: linear-gradient(to top, rgb(10, 10, 10) -24%, rgba(6, 6, 6, 0) 106% );
 }
 
 .projects .item-desc{
@@ -252,6 +252,7 @@ h1,h2,h3,h4,h5,h5,p{
     margin-top: 10px;
     height: 150px;
     position: relative;
+<<<<<<< HEAD
 }
 
 .events .event-left .box{
@@ -275,6 +276,31 @@ h1,h2,h3,h4,h5,h5,p{
     top: 30%;
 }
 
+=======
+}
+
+.events .event-left .box{
+    width: 100%;
+    background: #FFF;
+    box-shadow: 0px 1px 3px #d2d2d2;
+    display:flex;
+}
+
+.events .event-left .box .event-date{
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+}
+
+.events .event-left .event-one .event-date{
+    top: 39%;
+}
+
+.events .event-left .event-two .event-date{
+    top: 30%;
+}
+
+>>>>>>> cca21f15ec649ebd9ebdd13f327ea3f998d5c865
 .events .event-left .box .event-date h3{
     color: #696969;
     font-size: 31px;
@@ -293,6 +319,7 @@ h1,h2,h3,h4,h5,h5,p{
     margin-bottom: 30px;
 }
 
+<<<<<<< HEAD
 .events .event-left .box .event-info > hr{
     border-top: 1.5px dotted #dfdfdf;
     width: 100%;
@@ -353,12 +380,19 @@ h1,h2,h3,h4,h5,h5,p{
     border-radius: 5px;
     color: #FFF;
 }
+=======
+.events .event-left .box .event-info{
+
+>>>>>>> cca21f15ec649ebd9ebdd13f327ea3f998d5c865
 
     
     /* End Left Side of Events Section */
 
     /* Start Right Side of Events Section */
+<<<<<<< HEAD
 
+=======
+>>>>>>> cca21f15ec649ebd9ebdd13f327ea3f998d5c865
 .events .event-right{
     height: 450px;
     width: 100%;
