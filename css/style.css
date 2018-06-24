@@ -122,7 +122,7 @@ h1,h2,h3,h4,h5,h5,p{
     position: absolute;
     bottom: 0;
     z-index: 9998;
-    background: linear-gradient(to top, rgb(10, 10, 10) -24%, rgba(6, 6, 6, 0) 106% );
+    background: rgba(33, 33, 33, .5)
 }
 
 .projects .item-desc{
@@ -224,6 +224,8 @@ h1,h2,h3,h4,h5,h5,p{
     color:#000
 }
 
+
+    /* Start Left Side of Events Section */
 .events .event-left h3{
     color:#303030;
     font-weight: bold;
@@ -245,21 +247,122 @@ h1,h2,h3,h4,h5,h5,p{
     border-top: 2px solid #eee;
 }
 
-.events .event-left .box{
-    width: 100%;
-    background: #FFF;
-    box-shadow: 0px 1px 3px #d2d2d2
-}
-
 .events .event-left .event-one{
     margin-top: 40px;
     height: 250px;
+    position: relative;
 }
 
 .events .event-left .event-two{
     margin-top: 10px;
     height: 150px;
+    position: relative;
 }
+
+.events .event-left .box{
+    width: 100%;
+    background: #FFF;
+    box-shadow: 0px 1px 3px #d2d2d2;
+    display:flex;
+}
+
+.events .event-left .box .event-date{
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+}
+
+.events .event-left .event-one .event-date{
+    top: 39%;
+}
+
+.events .event-left .event-two .event-date{
+    top: 30%;
+}
+
+.events .event-left .box .event-date h3{
+    color: #696969;
+    font-size: 31px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.events .event-left .box .event-date span{
+    font-size: 14px;
+    color: #303030;
+}
+
+.events .event-left .box .event-info{
+    flex-grow: 100;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.events .event-left .box .event-info > hr{
+    border-top: 1.5px dotted #dfdfdf;
+    width: 100%;
+    height: 1px;
+}
+.events .event-left .box .event-info .info-up h5{
+    width: 45%;
+    font-weight: bold;
+    line-height: 29px;
+    color: #d84831;
+}
+
+.events .event-left .box .event-info .info-up .waiting-date{
+
+    width: 55%;
+    padding-right: 25px;
+}
+
+.events .event-left .box .event-info .info-up .waiting-date > div{
+    display: inline-block;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.events .event-left .box .event-info .info-up .waiting-date span{
+    color: #a7a7a7;
+    font-size: 12px;
+    text-align: center;
+    display: block;
+}
+
+.events .event-left .box .event-info .info-up .waiting-date hr{
+    width: 1px;
+    height: 30px;
+    border-left: 1.5px dotted #dfdfdf;
+    border-spacing: 0px;
+    padding-bottom: 2px;
+    margin: 4px 0 0;
+}
+
+.events .event-left .box .event-info .info-up .waiting-date h3{
+    color: #d84831;
+    text-align: center;
+}
+
+.events .event-left .box .event-info .info-down p{
+    font-size: 14px;
+    margin-right: 41px;
+    color: #a7a7a7;
+    line-height: 26px;
+}
+
+.events .event-left .box .event-info .info-down button{
+    background: #d84831;
+    border: none;
+    font-size: 12px;
+    padding:10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: #FFF;
+}
+
+    
+    /* End Left Side of Events Section */
+
+    /* Start Right Side of Events Section */
 
 .events .event-right{
     height: 450px;
@@ -292,9 +395,13 @@ h1,h2,h3,h4,h5,h5,p{
     top: 20%;
 }
 
+<<<<<<< HEAD
 .events .event-right .desc h3{
 
 }
+=======
+
+>>>>>>> 1be341a6d232091fc425de4daa2a4bd2bc2dcd8d
 .events .event-right .desc h1{
     margin-top: 12px;
 }
@@ -312,6 +419,8 @@ h1,h2,h3,h4,h5,h5,p{
     margin-top: 40px;
 }
 
+   
+    /* End Right Side of Events Section */
 
 /* End Ahmed Style */
 
