@@ -252,6 +252,7 @@ h1,h2,h3,h4,h5,h5,p{
     margin-top: 10px;
     height: 150px;
     position: relative;
+    margin-bottom: 10px;
 }
 
 .events .event-left .box{
@@ -360,7 +361,7 @@ h1,h2,h3,h4,h5,h5,p{
     /* Start Right Side of Events Section */
 
 .events .event-right{
-    height: 450px;
+    height: 530px;
     width: 100%;
     background: #3f3f3f;
     position: relative;
@@ -377,6 +378,7 @@ h1,h2,h3,h4,h5,h5,p{
 
 .events .event-right img{
     height: 100%;
+    width: 100%;
 }
 .events .event-right .desc{
     position: absolute;
