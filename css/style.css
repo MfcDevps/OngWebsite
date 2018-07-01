@@ -31,6 +31,11 @@ h1,h2,h3,h4,h5,h5,p{
     margin-right: 0;
     margin-left: 0;
 }
+
+img{
+    object-fit: cover;
+    -o-object-fit: cover;
+}
 /* End Global Style */
 
 
@@ -216,15 +221,30 @@ h1,h2,h3,h4,h5,h5,p{
     color: #d84831;
     font-weight: bold;
 }
+
+@media (max-width:768px){
+
+    .projects .project-item {
+        height: 500px;
+    }
+
+    .projects .project-item img {
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+    }
+  
+}
    /* End Project Items Styles
  /* End Projects Styles */
+
+/* Start Left Side of Events Section */
 
 .events{
     color:#000
 }
 
 
-    /* Start Left Side of Events Section */
 .events .event-left h3{
     color:#303030;
     font-weight: bold;
