@@ -7,7 +7,7 @@ var pLength = oldString.length;
 
 var newString = p.innerText;
 
-newString = newString.substr(0,50);
+newString = newString.substr(0,100);
 
 p.innerText = newString;
 

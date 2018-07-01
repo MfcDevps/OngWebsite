@@ -100,7 +100,6 @@ h1,h2,h3,h4,h5,h5,p{
 .projects ul{
     list-style-type: none;
     padding: 0;
-
     margin-top: 40px;
 }
 
@@ -297,6 +296,7 @@ h1,h2,h3,h4,h5,h5,p{
     flex-grow: 100;
     margin-top: 30px;
     margin-bottom: 30px;
+    width: 61%;
 }
 
 .events .event-left .box .event-info > hr{
