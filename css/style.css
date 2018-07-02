@@ -36,18 +36,89 @@ h1,h2,h3,h4,h5,h5,p{
 
 /* Start Hendou Style */
 .topBar{
-    background: rgb(194, 16, 64);
-}
-.t{
-  background: yellow;
-}
-.r{
-  background: red;
-}
-.menuBar{
-    background: rgb(55, 120, 169);
+    background:#333;
 }
 
+ .Ap{
+  float: left;
+      list-style: none;
+      margin: 0 0 0 20px;
+      padding: 10px 0;
+}
+.topBar ul {
+  list-style: none;
+  padding-left: 33%;
+  overflow: auto;
+
+
+float: right;
+}
+
+.topBar ul li i{
+color: #e47257;
+  display: inline-block;
+  padding: 4px;
+  margin: 1px
+
+}
+
+
+
+.menuBar{
+    background: #fff;
+padding: 0;
+
+
+}
+
+.menuBar .mbar {
+
+  color: #FFF;
+  overflow: hidden;
+}
+
+.menuBar .mbar img{
+
+}
+
+.menuBar .mbar ul{
+  list-style: none;
+  padding-left: 200px;
+  overflow: hidden;
+
+   padding-left: 4px;
+
+}
+
+.menuBar .mbar ul li {
+
+  display: inline-block;
+  padding: 8px;
+  margin: 8px
+
+}
+.menuBar .mbar ul li h4{
+  font-weight: bold;
+  text-transform:none;
+}
+.menuBar .mbar ul li a{
+  color: #343434;
+  text-decoration: none;
+
+}
+
+.menuBar .mbar ul li a:hover{
+  color: #f44336;
+}
+.menuBar .mbar  button{
+  background: #e47257;
+
+  font-size: 20px;
+  border: 2px solid #FFF;
+  font-weight: bold;
+  padding: 10px 30px;
+
+}
 .slider{
     background: rgb(55, 169, 106);
 }
@@ -359,7 +430,7 @@ h1,h2,h3,h4,h5,h5,p{
     color: #FFF;
 }
 
-    
+
     /* End Left Side of Events Section */
 
     /* Start Right Side of Events Section */
@@ -419,7 +490,7 @@ h1,h2,h3,h4,h5,h5,p{
     margin-top: 40px;
 }
 
-   
+
     /* End Right Side of Events Section */
 
 /* End Ahmed Style */
