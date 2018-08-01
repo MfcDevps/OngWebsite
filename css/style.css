@@ -3,6 +3,7 @@ body{
     color: #FFF;
     font-size: 22px;
     background-color: #fbfbfb;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif
 }
 
 h1,h2,h3,h4,h5,h5,p{
@@ -40,25 +41,16 @@ h1,h2,h3,h4,h5,h5,p{
 }
 
  .Ap{
-  float: left;
+        float: left;
       list-style: none;
       margin: 0 0 0 20px;
       padding: 10px 0;
 }
-.topBar ul {
-  list-style: none;
-  padding-left: 33%;
-  overflow: auto;
+.topBar .topBar-content{
 
-
-float: right;
 }
 
-.topBar ul li i{
-color: #e47257;
-  display: inline-block;
-  padding: 4px;
-  margin: 1px
+.topBar .social{
 
 }
 
@@ -66,59 +58,47 @@ color: #e47257;
 
 .menuBar{
     background: #fff;
-padding: 0;
+    padding: 10px 0;
+}
 
+.menuBar .logo{
 
 }
 
-.menuBar .mbar {
-
-  color: #FFF;
-  overflow: hidden;
+.menuBar #menu{
+    margin: 0;
+    list-style-type: none;
+    margin-left: 45px;
+    line-height: 2.9;
 }
 
-.menuBar .mbar img{
-
+.menuBar #menu li{
+    display: inline-block;
+    font-size: 15px;
+    padding-right: 35px;
 }
 
-.menuBar .mbar ul{
-  list-style: none;
-  padding-left: 200px;
-  overflow: hidden;
-
-   padding-left: 4px;
-
+.menuBar #menu li a{
+    color: #8e8e8e;
 }
 
-.menuBar .mbar ul li {
-
-  display: inline-block;
-  padding: 8px;
-  margin: 8px
-
-}
-.menuBar .mbar ul li h4{
-  font-weight: bold;
-  text-transform:none;
-}
-.menuBar .mbar ul li a{
-  color: #343434;
-  text-decoration: none;
-
+.menuBar #menu li a:hover{
+    color: #d84831;
+    text-decoration: none;
 }
 
-.menuBar .mbar ul li a:hover{
-  color: #f44336;
+.menuBar .donation{
+    background: #d84831;
+    padding: 12px 24px;
+    border-radius: 4px;
+    margin-top: 13px;
 }
-.menuBar .mbar  button{
-  background: #e47257;
 
-  font-size: 20px;
-  border: 2px solid #FFF;
-  font-weight: bold;
-  padding: 10px 30px;
-
+.menuBar .donation a{
+    font-size: 12px;
+    color: #fff;
 }
+
 .slider{
     background: rgb(55, 169, 106);
 }
