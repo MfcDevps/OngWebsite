@@ -37,11 +37,12 @@ h1,h2,h3,h4,h5,h5,p{
 
 /* Start Hendou Style */
 .topBar{
-    background:#333;
+    background:#5a5a5a;
+    padding: 10px 0;
 }
 
  .Ap{
-        float: left;
+    float: left;
       list-style: none;
       margin: 0 0 0 20px;
       padding: 10px 0;
@@ -50,8 +51,63 @@ h1,h2,h3,h4,h5,h5,p{
 
 }
 
-.topBar .social{
+.topBar .topBar-content i{
+    font-size: 14px;
+    color: #d84831;
+    margin-right: 7px;
+}
 
+.topBar .topBar-content i:last-of-type{
+    margin-left: 26px;
+}
+
+.topBar .topBar-content span{
+    font-size: 12px;
+    color: #cacaca;
+   
+}
+
+.topBar .topBar-content span:first-of-type{
+    border-right: 1px solid #6f6f6f;
+    padding-right: 26px;
+}
+
+.topBar .actions {
+    display: flex;
+    margin-right: 40px;
+}
+
+.topBar .actions i{
+    font-size: 14px;
+    color: #d84831;
+    margin-right: 7px;
+}
+.topBar .actions span{
+    font-size: 12px;
+    color: #cacaca;
+}
+
+.topBar .actions i:last-of-type{
+    margin-left: 26px;
+}
+
+.topBar .actions span:first-of-type{
+    border-right: 1px solid #6f6f6f;
+    padding-right: 26px;
+}
+
+.topBar .social{
+    display: flex;
+}
+.topBar .social i{
+    font-size: 14px;
+    color: #d84831;
+    padding: 0 10px;
+    border-left: 1px solid #6f6f6f;
+}
+
+.topBar .social i:first-child{
+    border-left:none;
 }
 
 
@@ -89,7 +145,7 @@ h1,h2,h3,h4,h5,h5,p{
 
 .menuBar .donation{
     background: #d84831;
-    padding: 12px 24px;
+    padding: 12px 35px;
     border-radius: 4px;
     margin-top: 13px;
 }
